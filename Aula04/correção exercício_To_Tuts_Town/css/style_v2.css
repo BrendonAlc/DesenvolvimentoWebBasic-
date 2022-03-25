@@ -1,0 +1,72 @@
+body {
+    background-color: #FAF8DA;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    /*alinha o conteúdo do header*/
+}
+
+h1 {
+    font-size: 70px;
+    color: #205D76;
+}
+
+.header {
+    width: 650px;
+}
+
+article {
+    display: flex;
+    /* tornar o conteúdo flexível*/
+    margin: 50px auto;
+    /*auto para largura, coloca o elemento no meio*/
+    width: 450px;
+}
+
+.article {
+    width: 200px;
+}
+
+div {
+    margin-left: 30px;
+}
+
+h2 {
+    color: #205D76;
+    font-size: 30px;
+}
+
+ul {
+    color: #FFC122;
+    padding-left: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #EA6E2F;
+    font-size: 20px;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #FFC122;
+    text-align: center;
+}
+
+
+/* como incluir uma fonte quando não tem no css ou no google fonts
+@font-face {
+    font-family: Brokenbrush;
+    src: url('../fontes/Brokenbrush.ttf');
+}
+
+h2 {
+    font-family: 'Brokenbrush', sans-serif;
+}
+*/
